@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anteco's - Luxury Footwear</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background-color: #111;
+      color: #f5f5f5;
+      text-align: center;
+    }
+    header {
+      padding: 80px 20px;
+      background-color: #111;
+    }
+    header h1 {
+      font-size: 40px;
+      letter-spacing: 5px;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 18px;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+    header button {
+      padding: 12px 30px;
+      background-color: gold;
+      border: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    .about {
+      padding: 60px 20px;
+      background-color: #1c1c1c;
+    }
+    .about h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    .about p {
+      font-size: 16px;
+      line-height: 1.6;
+      max-width: 600px;
+      margin: 0 auto;
+      color: #ccc;
+    }
+    .products {
+      padding: 60px 20px;
+      background-color: #222;
+    }
+    .products h2 {
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+    .product-card {
+      display: inline-block;
+      background-color: #1c1c1c;
+      padding: 20px;
+      margin: 15px;
+      width: 220px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .product-card img {
+      width: 200px;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+    .product-card h3 {
+      margin: 10px 0 5px 0;
+      font-size: 18px;
+    }
+    .product-card p {
+      font-size: 14px;
+      color: #ccc;
+    }
+    .product-card button {
+      padding: 10px 20px;
+      background-color: gold;
+      border: none;
+      margin-top: 10px;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    footer {
+      padding: 40px 20px;
+      background-color: #111;
+      color: #888;
+      font-size: 14px;
+    }
+    @media screen and (max-width: 600px) {
+      .product-card {
+        width: 90%;
+        margin: 10px auto;
+      }
+      header h1 {
+        font-size: 32px;
+      }
+      .about h2, .products h2 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ANTECO'S</h1>
+    <p>Handcrafted Luxury Footwear for Men</p>
+    <button>Explore Collection</button>
+  </header>
+
+  <section class="about">
+    <h2>Our Philosophy</h2>
+    <p>
+      At Anteco’s, we craft premium formal and casual footwear 
+      designed for men who value precision, elegance, and presence.
+      Each pair is handcrafted from the finest materials to deliver 
+      timeless style and unmatched comfort.
+    </p>
+  </section>
+
+  <section class="products">
+    <h2>Our Collection</h2>
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200" alt="Classic Oxford">
+      <h3>Classic Oxford</h3>
+      <p>₹7,999 – Handcrafted premium leather formal shoe.</p>
+      <button onclick="alert('Classic Oxford added to cart!')">Buy Now</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200" alt="Elegant Loafers">
+      <h3>Elegant Loafers</h3>
+      <p>₹6,499 – Comfortable casual leather loafers.</p>
+      <button onclick="alert('Elegant Loafers added to cart!')">Buy Now</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200" alt="Premium Boots">
+      <h3>Premium Boots</h3>
+      <p>₹9,999 – Handcrafted leather boots for men.</p>
+      <button onclick="alert('Premium Boots added to cart!')">Buy Now</button>
+    </div>
+
+  </section>
+
+  <footer>
+    &copy; 2026 Anteco's. All rights reserved.
+  </footer>
+
+</body>
+</html>
